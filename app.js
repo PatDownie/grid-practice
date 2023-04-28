@@ -2,6 +2,7 @@
 
 let noButton = document.getElementById("noButton");
 noButton.addEventListener("mouseover", moveButton);
+noButton.addEventListener("click", moveButton);
 let yesButton = document.getElementById("yesButton");
 yesButton.addEventListener("click", thankYou);
 let thankYouText = document.getElementById("thankyoutext");
@@ -25,5 +26,6 @@ function moveButton() {
 function thankYou() {
   thankYouText.className = "revealed";
   noButton.removeEventListener("mouseover", moveButton);
+  noButton.removeEventListener("click", moveButton);
   yesButton.removeEventListener("click", thankYou);
 }
