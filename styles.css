@@ -24,7 +24,7 @@ h1 {
   height: 300px;
   max-width: 800px;
   margin: 0 auto;
-  background-color: darkgoldenrod;
+  /* background-color: darkgoldenrod; */
   border-radius: 5px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
