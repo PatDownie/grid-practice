@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+#thankyoutext {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+#thankyoutext.hidden {
+  display: none;
+}
+
+.grid-container {
+  margin: 3rem;
+  height: 300px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: darkgoldenrod;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid-container div {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  /* margin: auto; */
+  justify-content: center;
+  transition: 0.3s;
+}
+.grid-container div:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.yes {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.avoid1 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+.avoid2 {
+  grid-row-start: 1;
+  grid-column-start: 2;
+}
+.avoid3 {
+  grid-row-start: 1;
+  grid-column-start: 3;
+}
+.avoid4 {
+  grid-row-start: 1;
+  grid-column-start: 4;
+}
+.avoid5 {
+  grid-row-start: 1;
+  grid-column-start: 5;
+}
+.avoid6 {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+.avoid7 {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+.avoid8 {
+  grid-row-start: 2;
+  grid-column-start: 4;
+}
+.avoid9 {
+  grid-row-start: 2;
+  grid-column-start: 5;
+}
+.avoid10 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+.avoid11 {
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+.avoid12 {
+  grid-row-start: 3;
+  grid-column-start: 3;
+}
+.avoid13 {
+  grid-row-start: 3;
+  grid-column-start: 4;
+}
+.avoid14 {
+  grid-row-start: 3;
+  grid-column-start: 5;
+}
